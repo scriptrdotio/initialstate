@@ -4,7 +4,7 @@ write=nobody
 execute=authenticated 
   **/ 
  
- var c = require('../initialstateclient');
+ var c = require('../initialstateclient.js');
 
 var cc = new c.InitialState();
 

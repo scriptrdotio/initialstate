@@ -20,7 +20,7 @@ The purpose of this connector is to simplify and streamline the way you access I
 Require the initialstateclient from a script, then create an instance of the InitialState class.
 Note that you can pass an access key to the constructor or just rely on the one defined in the config file.
 ```
-var initialStateModule = require('/modules/initialstate/initialstateclient');
+var initialStateModule = require('/modules/initialstate/initialstateclient.js');
 var initialState = new initialStateModule.InitialState(); // Use the accessKey defined in initialstate/config
 ```
 

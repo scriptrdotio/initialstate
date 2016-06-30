@@ -4,8 +4,8 @@ write=nobody
 execute=authenticated 
   **/ 
  
- var config = require("./config");
-var httpClient = require("./httpclient");
+ var config = require("./config.js");
+var httpClient = require("./httpclient.js");
 
 /**
  * This is the main class to use to interact with Initial State's APIs
